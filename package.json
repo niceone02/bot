@@ -1,0 +1,31 @@
+{
+  "name": "airdropbot-v1",
+  "version": "1.0.0",
+  "description": "This is an Airdrop Bot Made in Nodejs with telegraf library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Royal-Devendra/AirdropBot.git"
+  },
+  "keywords": [],
+  "author": "Royal-Devendra",
+  "license": "Apache-2.0+",
+  "bugs": {
+    "url": "https://github.com/Royal-Devendra/AirdropBot/issues"
+  },
+  "homepage": "https://github.com/Royal-Devendra/AirdropBot#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "heroku": "^7.56.1",
+    "interface": "^1.2.1",
+    "mongodb": "^4.10.0",
+    "pm2": "^5.1.0",
+    "run": "^1.4.0",
+    "telegraf": "^4.4.1",
+    "telegraf-ratelimit": "^2.0.0"
+  },
+  "devDependencies": {}
+}
