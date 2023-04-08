@@ -119,7 +119,7 @@ const botStart = async (ctx) => {
       }
       let tData = await db.collection("allUsers").find({}).toArray();
 
-      let link = "<a href='tg://user?id="+ctx.from.id+"'>@"+ctx.from.username+"</a>";
+      let linkk = "<a href='tg://user?id="+ctx.from.id+"'>@"+ctx.from.username+"</a>";
       if (!ctx.from.username) {
         linkk = "<a href='tg://user?id="+ctx.from.id+"'>Click Here</a>";
       }
